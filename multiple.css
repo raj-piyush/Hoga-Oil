@@ -1,0 +1,17 @@
+@import "bourbon";
+
+.navbar-nav {
+   margin:0; 
+}
+
+.nav-row{
+  @include display(flex);
+  @include justify-content(space-around);
+}
+
+@media (min-width: 768px){
+  //.navbar-collapse.collapse.in ul {
+ // display: flex-inline!important;
+}
+
+

@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="hoga.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+
+    <style>
+
+  .button {
+  border-radius: 4px;
+  /*background-color: rgba(212, 132, 216,.7);*/
+  background-color: rgba(255,255,255,.2);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+/*.button:hover{
+    background: transparent;
+    color: white;
+}*/
+
+
+/*.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}*/
+
+/*.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}*/
+
+/*.button:hover span {
+  padding-right: 25px;
+}*/
+
+/*.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}*/
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal6 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal7 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal8 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal9 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal10{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal11 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal12 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal13 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal14 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal15 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+   /* z-index: 1;*/  /*Sit on top*/
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.dropdown-menu>li>a{
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: rgba(170, 104, 159,.8);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+.product{
+    margin-bottom: 400px;
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+/*.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}*/
+
+
+
+.image
+{
+    cursor: pointer;
+    margin: 20px;
+    /*border:3px solid white;*/
+    outline: 3px solid white;
+    width: 100%;
+
+
+
+}
+
+.cont:hover .middle {
+  opacity: 1;
+
+}
+/*.cont:hover .middle1{
+    opacity: 1;
+}
+*/
+.text {
+  background-color: rgb(111, 124, 68);
+  color: white;
+  font-size: 16px;
+  padding: 16px 3px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+   /* opacity: .7;*/ /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    outline-offset: -10px;
+}
+
+.dropdown-toggle{
+  position: relative;
+}
+.myclass{
+  margin-bottom: 80px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+        <div class="row">
+
+
+
+                       <div class="top col-lg-12" id="language" style="white-space:nowrap;">
+
+                            <div id="eng" style="display: inline;white-space: nowrap;font-size: 1.3rem"><a style="text-decoration: none;" class="active" href="#"><i class="fa fa-flag" aria-hidden="true"></i> English </a><span>|</span></div>
+                            <div id="fre" style="display: inline; font-size: 1.3rem"><a style="text-decoration: none;" href="#">French </a><span>|</span></div>
+
+                            <div id="fre" style="display: inline; font-size: 1.3rem"><a style="text-decoration: none;" href="#"> German</a></div>
+
+
+
+                       </div>
+
+
+
+
+                        <div class="below-top col-lg-12 col-md-12 col-sm-12">
+
+                            <span id="texts">
+                                Welcome to <span id="h">H</span><span id="o">o</span><span id="h">gaoil</span>
+                            </span>
+
+                            <span>
+                                <a href="#"><img src="hglogo.png" style="height: 150px"></a>
+                            </span>
+
+
+
+
+
+
+
+
+                        </div>​
+
+
+
+
+
+
+                         <nav class="navbar navbar-inverse" id="nav_bar">
+
+
+
+                             <div class="container">
+                                 <div class="navbar-header">
+                                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+                                     <span class="sr-only">Toggle navigation</span>
+                                     <span class="icon-bar"></span>
+                                     <span class="icon-bar"></span>
+                                     <span class="icon-bar"></span>
+                                 </button>
+
+                                 </div>
+
+
+
+
+
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                                 <div class="nav navbar-nav">
+                                     <li><a href="hoga.html">Home</a></li>
+                                     <li><a href="about.html">About</a></li>
+                                     <li><a href="product.html">Products</a></li>
+                                     <li><a href="service.html">Services</a></li>
+                                     <li><a href="client.html">Clientele</a></li>
+                                     <li><a href="request.html"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Sample Request</a></li>
+                                 </div>
+
+                                 <div class="nav navbar-nav navbar-right">
+
+
+
+                                 </div>
+
+
+
+
+
+
+                                 </div>
+
+
+
+
+                         </nav>
+
+
+                         <div class="product col-lg-12 col-md-12 col-sm-12" style="overflow: hidden;margin: 70px auto;">
+
+                            <div class="col-lg-6 col-md-12 col-sm-12" style="text-align: center;">
+                                <img id="img1" class="col-lg-6 col-md-12 col-sm-12" src="ind.png" style="margin: 10px auto;padding-left: 0;position: relative; width: 180px;">
+                                <div class="dropdown col-lg-3 col-md-12 col-sm-12">
+                                  <button id="butt1" class="btn btn-default dropdown-toggle button" type="button" data-toggle="dropdown" style="font-family: Fira Sans;margin:20px auto;position: relative;">Strub
+                                  <span class="caret"></span></button>
+                                  <ul id="dp1" class="dropdown-menu button" style="position: relative;text-align: center;">
+                                  <li id="btn1" class="" style="font-family: Fira Sans;"><a href="#">Automotive Catalogue</a></li><hr>
+                                  <li id="btn2" class="" style="font-family: Fira Sans;"><a href="#">Industrial Catalogue</a></li>
+
+                                  </ul>
+
+
+                                 </div>
+                             </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12" style="text-align: center;">
+                                <img class="col-lg-6 col-md-12 col-sm-12" src="swiss.png" style="margin-left: 0px;margin-bottom: 20px;padding-left: 0;width: 180px;">
+
+
+                                 <div class="dropdown col-lg-3 col-md-12 col-sm-12">
+                                  <button id="butt2" class="btn btn-default dropdown-toggle button" type="button" data-toggle="dropdown" style="font-family: Fira Sans;margin:20px auto;">Strub
+                                  <span class="caret"></span></button>
+                                  <ul id="dp2" class="dropdown-menu button" style="position: relative;text-align: center;">
+                                  <li id="btn3" class="" style="font-family: Fira Sans;"><a href="#">Automotive Catalogue</a></li><hr>
+                                  <li id="btn4" class="" style="font-family: Fira Sans;"><a href="#">Industrial Catalogue</a></li><hr>
+                                  <li id="btn5" class="" style="font-family: Fira Sans;"><a href="#">Metal Catalogue</a></li><hr>
+                                  <li id="btn6" class="" style="font-family: Fira Sans;"><a href="#">Paper Catalogue</a></li><hr>
+                                  <li id="btn7" class="" style="font-family: Fira Sans;"><a href="#">Transport Catalogue</a></li><hr>
+                                  <li id="btn8" class="" style="font-family: Fira Sans;"><a href="#">Corrison Catalogue</a></li><hr>
+                                  <li id="btn9" class="" style="font-family: Fira Sans;"><a href="#">Food Catalogue</a></li>
+
+                                  </ul>
+
+
+                                 </div>
+                                 <div class="dropdown col-lg-3 col-md-12 col-sm-12">
+                                  <button id="butt3" class="btn btn-default dropdown-toggle button" type="button" data-toggle="dropdown" style="font-family: Fira Sans;margin:20px auto;">Zep
+                                  <span class="caret"></span></button>
+                                  <ul id="dp3" class="dropdown-menu button" style="position: relative;text-align: center;">
+                                  <li id="btn10" class="" style="font-family: Fira Sans;"><a href="#">ALIMENTAIRE Catalogue</a></li><hr>
+                                  <li id="btn11" class="" style="font-family: Fira Sans;"><a href="#">ENTRETIEN Catalogue</a></li><hr>
+                                  <li id="btn12" class="" style="font-family: Fira Sans;"><a href="#">SANITAIRE Catalogue</a></li><hr>
+                                  <li id="btn13" class="" style="font-family: Fira Sans;"><a href="#">TRANSPORT Catalogue</a></li><hr>
+                                  <li id="btn14" class="" style="font-family: Fira Sans;"><a href="#">BIO Catalogue</a></li><hr>
+                                  <li id="btn15" class="" style="font-family: Fira Sans;"><a href="#">CONSTRUCTION Catalogue</a></li><hr>
+                                  <li id="btn16" class="" style="font-family: Fira Sans;"><a href="#">ELECTRICITE Catalogue</a></li>
+
+                                  </ul>
+
+
+                                 </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h3 style="font-size: 4rem;font-weight: bold;font-family: Fira Sans;color: white;text-align: center;margin-top: 70px;margin-bottom: 20px;">STRUB INDIA CATALOGUES</h3>
+
+                            </div>
+
+
+
+                            <div class="india col-lg-12 col-md-12 col-sm-12" style="text-align: center;">
+
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="ind-strub-auto.jpg" height="300px" class="image zoom" id="btna" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_IND_AUTOMOBILE</div>
+                                     </div>
+                                </div>
+
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="ind-strub-indus.jpg" height="300px" class="image zoom" id="btnb" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_IND_INDUSTRIAL</div>
+                                     </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h3 style="font-size: 4rem;font-weight: bold;font-family: Fira Sans;color: white;text-align: center;margin-top: 40px;margin-bottom: 20px;">STRUB SWITZERLAND CATALOGUES</h3>
+
+                            </div>
+
+                            <div class="swiss-strub col-lg-12 col-md-12 col-sm-12" style="text-align: center;">
+
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="swiss-strub-auto.jpg" height="300px" class="image zoom" id="btnc" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_AUTOMOBILE</div>
+                                     </div>
+                                </div>
+
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="strub-swiss-indus.jpg" height="300px" class="image zoom" id="btnd" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_INDUSTRIAL</div>
+                                     </div>
+                                </div>
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="strub-swiss-paper.jpg" height="300px" class="image zoom" id="btne" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_PAPER</div>
+                                     </div>
+                                </div>
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="strub-swiss-food.jpg" height="300px" class="image zoom" id="btnf" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_FOOD</div>
+                                     </div>
+                                </div>
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="strub-swiss-metal.jpg" height="300px" class="image zoom" id="btng" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_METAL</div>
+                                     </div>
+                                </div>
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="strub-swiss-transport.jpg" height="300px" class="image zoom" id="btnh" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_TRANSPORT</div>
+                                     </div>
+                                </div>
+                                <div class= "col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="strub-swiss-corr.jpg" height="300px" class="image zoom" id="btni" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">STRUB_SWISS_CORROSION</div>
+                                     </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <h3 style="font-size: 4rem;font-weight: bold;font-family: Fira Sans;color: white;text-align: center;margin-top: 40px;margin-bottom: 20px;">ZEP SWITZERLAND CATALOGUES</h3>
+
+                            </div>
+                            <div class="swiss-zep col-lg-12 col-md-12 col-sm-12" style="text-align: center;">
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="alimentaire.jpg" height="300px" class="image zoom" id="btnj" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_ALIMENTAIRE</div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="swiss-zep-entretien.jpg" height="300px" class="image zoom" id="btnk" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_ENTRETIEN</div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="swiss-zep-sanitaire.jpg" height="300px" class="image zoom" id="btnl" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_SANITAIRE</div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="swiss-zep-transport.jpg" height="300px" class="image zoom" id="btnm" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_TRANSPORT</div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="swiss-zep-bio.jpg" height="300px" class="image zoom" id="btnn" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_BIO</div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="construction.jpg" height="300px" class="image zoom" id="btno" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_CONSTRUCTION</div>
+                                     </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-12 cont" style="text-align: center;">
+                                    <img src="Electricite.jpg" height="300px" class="image zoom" id="btnp" style="margin: 20px auto;">
+                                    <div class="middle">
+                                       <div class="text">ZEP_SWISS_ELECTRICITE</div>
+                                     </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                         <div id="myModal" class="modal">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <!-- <img style="position: absolute;left: 500px;" src="auto.jpg"> -->
+                                  <embed src="ind-auto.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+                             </div>
+
+                         </div>
+                         <div id="myModal1" class="modal1">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="product.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal2" class="modal2">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-auto.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal3" class="modal3">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-indus.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal4" class="modal4">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-metal.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal5" class="modal5">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-paper.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal6" class="modal6">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-transport.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal7" class="modal7">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-corr.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal8" class="modal8">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="leaflet-food.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+
+                         <div id="myModal9" class="modal9">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="alimentaire.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal10" class="modal10">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="Entretien.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal11" class="modal11">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="Sanitaire.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal12" class="modal12">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="Transport.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal13" class="modal13">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="Bio.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal14" class="modal14">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="Construction.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+                         <div id="myModal15" class="modal15">
+                            <div id="modal-content">
+                                  <span class="close">&times;</span>
+                                  <embed src="Electricite.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+                             </div>
+
+                         </div>
+
+<!--                          <div id="myModals" class="modals">
+                            <div id="modals-content">
+                                  <span class="close1">&times;</span>
+                                  <embed src="product.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+
+
+
+
+
+
+
+
+
+
+                             </div>
+
+                         </div>
+
+                         <div id="myModal1" class="modal1">
+                            <div id="modal1-content">
+                                  <span class="close2">&times;</span>
+                                  <embed src="leaflet-auto.pdf" width="900px" height="700px" style="position: absolute;left: 300px;"></embed>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             </div>
+
+                         </div> -->
+
+
+                          <div class="foot col-lg-12 col-md-12 col-sm-12" style="margin-top: 0;">
+
+                            <div class="address col-lg-3 col-md-6 col-sm-12">
+
+                                <h4>Hoga Oil</h4>
+                                <p>Avenue des Vergers 48,</p>
+                                <p>1963 Vétroz</p>
+
+                            </div>
+
+                            <div class="partner-foot col-lg-3 col-md-6 col-sm-12">
+
+
+                                <p>Strub: <a href="http://strub-lube.ch">strub-lube.ch</a></p>
+                                <p>Zep: <a href="http://zep.com">zep.com</a></p>
+
+                            </div>
+
+                            <div class="contact col-lg-3 col-md-6 col-sm-12">
+                                <h4>Contacts</h4>
+                                <p>Switzerland: RÈGIS HOGARD</p>
+                                <p>+41 786619528</p>
+                                <p>India: ABHISHEK GUPTA</p>
+                                <p>+91-7042422827</p>
+
+                            </div>
+
+                            <div class="social col-lg-3 col-md-6 col-sm-12">
+                                <span>
+                                    <a class="youtube" href="#" style="padding-right: 5px"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+                                    <a class="facebook" href="#" style="padding-right: 5px"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                                    <a class="linkedin" href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                                </span>
+
+                                <p>Developer: <a href="speaktoraj95@gmail.com">speaktoraj95@gmail.com</a></p>
+
+                            </div>
+
+
+
+
+
+                         </div>
+
+
+</div>
+</div>
+
+<script type="text/javascript">
+    var modal = document.getElementById("myModal");
+    var modal1 = document.getElementById("myModal1");
+    var modal2 = document.getElementById("myModal2");
+    var modal3 = document.getElementById("myModal3");
+    var modal4 = document.getElementById("myModal4");
+    var modal5 = document.getElementById("myModal5");
+    var modal6 = document.getElementById("myModal6");
+    var modal7 = document.getElementById("myMo-dal7");
+    var modal8 = document.getElementById("myModal8");
+    var modal9 = document.getElementById("myModal9");
+    var modal10 = document.getElementById("myModal10");
+    var modal11 = document.getElementById("myModal11");
+    var modal12 = document.getElementById("myModal12");
+    var modal13 = document.getElementById("myModal13");
+    var modal14 = document.getElementById("myModal14");
+    var modal15 = document.getElementById("myModal15");
+    var btn1= document.getElementById("btn1");
+    var btna= document.getElementById("btna");
+    var btn2= document.getElementById("btn2");
+    var btnb= document.getElementById("btnb");
+    var btn3= document.getElementById("btn3");
+    var btnc= document.getElementById("btnc");
+    var btn4= document.getElementById("btn4");
+    var btnd= document.getElementById("btnd");
+
+    var btn5= document.getElementById("btn5");
+    var btne= document.getElementById("btne");
+
+
+    var btn6= document.getElementById("btn6");
+    var btnf= document.getElementById("btnf");
+
+
+    var btn7=document.getElementById("btn7");
+    var btng=document.getElementById("btng");
+
+    var btn8=document.getElementById("btn8");
+    var btnh=document.getElementById("btnh");
+
+    var btn9=document.getElementById("btn9");
+    var btni=document.getElementById("btni");
+
+    var btnj=document.getElementById("btnj");
+    var btnk=document.getElementById("btnk");
+    var btnl=document.getElementById("btnl");
+    var btnm=document.getElementById("btnm");
+    var btnn=document.getElementById("btnn");
+    var btno=document.getElementById("btno");
+    var btnp=document.getElementById("btnp");
+
+    var btn10=document.getElementById("btn10");
+    var btn11=document.getElementById("btn11");
+    var btn12=document.getElementById("btn12");
+    var btn13=document.getElementById("btn13");
+    var btn14=document.getElementById("btn14");
+    var btn15=document.getElementById("btn15");
+    var btn16=document.getElementById("btn16");
+
+
+    btn1.onclick= function(){
+        modal.style.display="block";
+    }
+    btna.onclick= function(){
+        modal.style.display="block";
+    }
+    btn2.onclick= function(){
+        modal1.style.display="block";
+    }
+    btnb.onclick= function(){
+        modal1.style.display="block";
+    }
+    btn3.onclick= function(){
+        modal2.style.display="block";
+    }
+    btnc.onclick= function(){
+        modal2.style.display="block";
+    }
+
+
+    btn4.onclick= function(){
+        modal3.style.display="block";
+    }
+    btnd.onclick= function(){
+        modal3.style.display="block";
+    }
+
+    btn5.onclick= function(){
+        modal4.style.display="block";
+    }
+    btne.onclick= function(){
+        modal4.style.display="block";
+    }
+    btn6.onclick= function(){
+        modal5.style.display="block";
+    }
+    btnf.onclick= function(){
+        modal5.style.display="block";
+    }
+    btn7.onclick= function(){
+        modal6.style.display="block";
+    }
+    btng.onclick= function(){
+        modal6.style.display="block";
+    }
+    btn8.onclick= function(){
+        modal7.style.display="block";
+    }
+    btnh.onclick= function(){
+        modal7.style.display="block";
+    }
+
+    btn9.onclick= function(){
+        modal8.style.display="block";
+    }
+    btni.onclick= function(){
+        modal8.style.display="block";
+    }
+    btnj.onclick= function(){
+        modal9.style.display="block";
+    }
+    btnk.onclick= function(){
+        modal10.style.display="block";
+    }
+    btnl.onclick= function(){
+        modal11.style.display="block";
+    }
+    btnm.onclick= function(){
+        modal12.style.display="block";
+    }
+    btnn.onclick= function(){
+        modal13.style.display="block";
+    }
+    btno.onclick= function(){
+        modal14.style.display="block";
+    }
+    btnp.onclick= function(){
+        modal15.style.display="block";
+    }
+
+
+    btn10.onclick= function(){
+        modal9.style.display="block";
+    }
+    btn11.onclick= function(){
+        modal10.style.display="block";
+    }
+    btn12.onclick= function(){
+        modal11.style.display="block";
+    }
+    btn13.onclick= function(){
+        modal12.style.display="block";
+    }
+    btn14.onclick= function(){
+        modal13.style.display="block";
+    }
+    btn15.onclick= function(){
+        modal14.style.display="block";
+    }
+    btn16.onclick= function(){
+        modal15.style.display="block";
+    }
+
+
+    var span = document.getElementsByClassName("close")[0];
+    var span1 = document.getElementsByClassName("close")[1];
+    var span2= document.getElementsByClassName("close")[2];
+    var span3= document.getElementsByClassName("close")[3];
+    var span4= document.getElementsByClassName("close")[4];
+    var span5= document.getElementsByClassName("close")[5];
+    var span6= document.getElementsByClassName("close")[6];
+    var span7= document.getElementsByClassName("close")[7];
+    var span8= document.getElementsByClassName("close")[8];
+    var span9= document.getElementsByClassName("close")[9];
+    var span10= document.getElementsByClassName("close")[10];
+    var span11= document.getElementsByClassName("close")[11];
+    var span12= document.getElementsByClassName("close")[12];
+    var span13= document.getElementsByClassName("close")[13];
+    var span14= document.getElementsByClassName("close")[14];
+    var span15= document.getElementsByClassName("close")[15];
+
+    span.onclick = function() {
+    modal.style.display = "none";
+
+}
+
+    span1.onclick = function() {
+    modal1.style.display = "none";
+
+}
+
+  span2.onclick = function() {
+    modal2.style.display = "none";
+
+}
+
+  span3.onclick = function() {
+    modal3.style.display = "none";
+
+}
+ span4.onclick = function() {
+    modal4.style.display = "none";
+
+}
+ span5.onclick = function() {
+    modal5.style.display = "none";
+
+}
+span6.onclick = function() {
+    modal6.style.display = "none";
+
+}
+span7.onclick = function() {
+    modal7.style.display = "none";
+
+}
+
+span8.onclick = function() {
+    modal8.style.display = "none";
+
+}
+span9.onclick = function() {
+    modal9.style.display = "none";
+
+}
+span10.onclick = function() {
+    modal10.style.display = "none";
+
+}
+span11.onclick = function() {
+    modal11.style.display = "none";
+
+}
+span12.onclick = function() {
+    modal12.style.display = "none";
+
+}
+span13.onclick = function() {
+    modal13.style.display = "none";
+
+}
+span14.onclick = function() {
+    modal14.style.display = "none";
+
+}
+span15.onclick = function() {
+    modal15.style.display = "none";
+
+}
+
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+
+});
+
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal7) {
+        modal7.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal8) {
+        modal8.style.display = "none";
+    }
+
+});window.addEventListener("click", function(event)
+{
+    if (event.target == modal9) {
+        modal9.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal10) {
+        modal10.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal11) {
+        modal11.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal12) {
+        modal12.style.display = "none";
+    }
+
+});
+window.addEventListener("click", function(event)
+{
+    if (event.target == modal13) {
+        modal13.style.display = "none";
+    }
+
+});window.addEventListener("click", function(event)
+{
+    if (event.target == modal14) {
+        modal14.style.display = "none";
+    }
+
+});
+window.onclick = function(event) {
+    if (event.target == modal15) {
+        modal15.style.display = "none";
+    }
+}
+
+$('#butt1').click(function() {
+  $('#dp1').toggleClass('myclass');
+  // $('#img1').toggleClass('myclass');
+
+});
+$('#butt2').click(function() {
+  $('#dp2').toggleClass('myclass');
+
+});
+$('#butt3').click(function() {
+  $('#dp3').toggleClass('myclass');
+
+});
+
+</script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="hoga.js"></script>
+
+
+
+
+</body>
+</html>
+

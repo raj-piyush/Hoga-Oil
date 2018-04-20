@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="hoga.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        ul{
+            list-style: none;
+            padding:0 0 0 0;
+        }
+        .fa-plus{
+                 float: right;
+                 }
+
+        .fa-trash{
+            padding-top: 10px;
+
+
+
+        }
+        li#trash{
+            opacity: 0;
+            height: 0;
+            transition: .2s linear;
+        }
+
+        ul:hover li#trash
+        {opacity: 1;
+            height: 45px;
+        }
+#container{
+
+    width: 240px;
+    margin:20px 0 20px 0px;
+
+    background: #f7f7f7;
+
+}
+         h3{
+    background: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: normal;
+
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+<div class="container">
+        <div class="row">
+
+
+
+                       <div class="top col-lg-12" id="language" style="white-space:nowrap;">
+
+                            <div id="eng" style="display: inline;white-space: nowrap;font-size: 1.3rem"><a style="text-decoration: none;" class="active" href="#"><i class="fa fa-flag" aria-hidden="true"></i> English </a><span>|</span></div>
+                            <div id="fre" style="display: inline; font-size: 1.3rem"><a style="text-decoration: none;" href="#">French </a><span>|</span></div>
+
+                            <div id="fre" style="display: inline; font-size: 1.3rem"><a style="text-decoration: none;" href="#"> German</a></div>
+
+
+
+                       </div>
+
+
+
+
+                        <div class="below-top col-lg-12 col-md-12 col-sm-12">
+
+                            <span id="texts">
+                                Welcome to <span id="h">H</span><span id="o">o</span><span id="h">gaoil</span>
+                            </span>
+
+                            <span>
+                                <a href="#"><img src="hglogo.png" style="height: 150px"></a>
+                            </span>
+
+
+
+
+
+
+
+
+                        </div>​
+
+
+
+
+
+
+                         <nav class="navbar navbar-inverse" id="nav_bar">
+
+
+
+                             <div class="container">
+                                 <div class="navbar-header">
+                                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false">
+                                     <span class="sr-only">Toggle navigation</span>
+                                     <span class="icon-bar"></span>
+                                     <span class="icon-bar"></span>
+                                     <span class="icon-bar"></span>
+                                 </button>
+
+                                 </div>
+
+
+
+
+
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                                 <div class="nav navbar-nav">
+                                     <li><a href="hoga.html">Home</a></li>
+                                     <li><a href="about.html">About</a></li>
+                                     <li><a href="product.html">Products</a></li>
+                                     <li><a href="service.html">Services</a></li>
+                                     <li><a href="client.html">Clientele</a></li>
+                                     <li><a href="request.html"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Sample Request</a></li>
+                                 </div>
+
+                                 <div class="nav navbar-nav navbar-right">
+
+
+
+                                 </div>
+
+
+
+
+
+
+                                 </div>
+
+
+
+
+                         </nav>
+
+                         <div class="form col-lg-12 col-md-12 col-md-12" style="background: rgba(255,255,255,.8);color: black;border-radius: 5px; margin: 10px auto;">
+
+
+                                <h1 class="col-lg-12 col-md-12 col-md-12" style="color: black;font-family: Fira Sans;font-weight: bold; text-align: center;margin-bottom: 50px;">Sample Request Form</h1>
+
+                                <form class="col-lg-12 col-md-12 col-sm-12" method="post" id="form">
+                                    <div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 20px;">
+                                        <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <label for="name">Company Name </label>
+                                        <input style="border-radius: 5px;" type="text" name="name" id="name" value="" required><br>
+
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <label for="location">Location </label>
+                                        <input style="border-radius: 5px;" type="text" name="location" id="location" value="" required><br>
+
+
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                                        <label for="poc">Person of Contact </label>
+                                        <input style="border-radius: 5px;" type="text" name="poc" id="poc" value="" required><br>
+
+
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12" style="margin-bottom: 20px;">
+                                        <label for="phone">Phone </label>
+                                        <input style="border-radius: 5px;" type="text" name="phone" id="phone" value="" required><br>
+
+
+                                    </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         <div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 0px;">
+                                             <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top: 30px;">
+                                        <label for="address1">Address Line1 </label>
+                                        <input style="border-radius: 5px;" type="text" name="address1" id="address1" value="" required><br>
+                                        <label for="address2">Address Line2 </label>
+                                        <input style="border-radius: 5px;" type="text" name="address2" id="address2" value="" required><br>
+                                        <label for="address2">Address Line3 </label>
+                                        <input style="border-radius: 5px;" type="text" name="address3" id="address3" value="" required><br>
+
+                                        <label for="state">State </label>
+                                        <input style="border-radius: 5px;width: 80px;" type="text" name="state" id="state" value="" required><br>
+                                        <label for="state">Pincode </label>
+                                        <input style="border-radius: 5px;width: 80px; margin-bottom:20px;" type="text" name="state" id="state" value="" required><br>
+
+
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top: 30px;">
+
+                                        <label for="name">Email </label>
+                                        <input style="border-radius: 5px;" type="email" name="email" id="email" value="" required><br>
+
+
+                                        <label for="phone1">Phone / Mobile Number </label>
+                                        <input style="border-radius: 5px;" type="phone1" name="phone1" id="phone1" value="" required><br>
+
+
+
+                                    </div>
+
+                                         </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <marquee>
+                                            <p style="color: rgb(166, 36, 173);">Please refer the products page to enter product names. Catalogues are given for each product domain. </p>
+                                        </marquee>
+
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12" style="margin-top: 0;">
+                                        <div id="container">
+                                        <h3>ADD PRODUCTS <i class="fa fa-plus" aria-hidden="true"></i></h3>
+                                        <div id="cont">
+                                            <ul>
+                                            <li>
+                                                <label style="padding-left: 5px;" for="product">Product  </label>
+                                                <input style="border-radius: 5px;margin-top: 10px;width: 148px;" type="text" name="product" id="product" value="" required><br>
+
+                                            </li>
+                                            <li>
+                                                <label style="padding-left: 5px;" for="quantity">Quantity  </label>
+                                                <input style="border-radius: 5px;width: 144px;" type="text" name="quantity" id="quantity" value="" required><br>
+
+                                            </li>
+                                            <li>
+                                                <label  style="padding-left: 5px;" for="vol">Potential Volume  </label>
+                                                <input style="border-radius: 5px; width: 90px;" type="text" name="vol" id="vol" value="" required><br>
+
+                                            </li>
+                                            <li style="border-bottom: 1px solid gray;">
+                                                <label  style="padding-left: 5px;" for="app">Application  </label>
+                                                <input style="border-radius: 5px;width: 128px;" type="text" name="app" id="app" value="" required><br>
+
+                                            </li>
+                                            <li class="trash" id="trash" style="background: #e74c3c;line-height: 40px;">
+
+
+                                                    <i style="margin-left: 110px;" class="fa fa-trash fa-2x" aria-hidden="true"></i>
+
+
+
+                                            </li>
+                                            </ul>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                    </div>
+
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12" style="margin-bottom: 20px;">
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+
+                                        <label for="Etta">Expected time Technical Approval </label>
+                                        <input style="border-radius: 5px;" type="Etta" name="Etta" id="Etta" value="" required><br>
+
+
+                                        <label for="Etca">Expected time of Commercial Order </label>
+                                        <input style="border-radius: 5px;" type="Etca" name="Etca" id="Etca" value="" required><br>
+
+
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12">
+                                        <label for="Extra">Any other detail </label><br>
+                                        <textarea rows="4" cols="28" style="border-radius: 5px;" type="text-area" name="Extra" id="Extra" value="" required></textarea>
+
+
+
+
+
+
+                                    </div>
+
+                                    </div>
+
+
+
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12" style="text-align: center;margin-top: 50px;margin-bottom: 20px;" >
+                                        <input id="submit" type="submit" name="submit" value="Submit" style="border-radius: 5px;border: 2px solid #a89fa6;font-weight: bold;color: black;margin-bottom: 20px; width: 80px; height: 50px;font-size: 1.5rem;">
+
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </form>
+
+
+
+                         </div>
+
+
+
+                          <div class="foot col-lg-12 col-md-12 col-sm-12">
+
+                            <div class="address col-lg-3 col-md-6 col-sm-12">
+
+                                <h4>Hoga Oil</h4>
+                                <p>Avenue des Vergers 48,</p>
+                                <p>1963 Vétroz</p>
+
+                            </div>
+
+                            <div class="partner-foot col-lg-3 col-md-6 col-sm-12">
+
+
+                                <p>Strub: <a href="http://strub-lube.ch">strub-lube.ch</a></p>
+                                <p>Zep: <a href="http://zep.com">zep.com</a></p>
+
+                            </div>
+
+                            <div class="contact col-lg-3 col-md-6 col-sm-12">
+                                <h4>Contacts</h4>
+                                <p>Switzerland: RÈGIS HOGARD</p>
+                                <p>+41 786619528</p>
+                                <p>India: ABHISHEK GUPTA</p>
+                                <p>+91-7042422827</p>
+
+                            </div>
+
+                            <div class="social col-lg-3 col-md-6 col-sm-12">
+                                <span>
+                                    <a class="youtube" href="#" style="padding-right: 5px"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+                                    <a class="facebook" href="#" style="padding-right: 5px"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                                    <a class="linkedin" href="#"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+                                </span>
+
+                                <p>Developer: <a href="speaktoraj95@gmail.com">speaktoraj95@gmail.com</a></p>
+
+                            </div>
+
+
+
+
+
+                         </div>
+
+
+</div>
+</div>
+
+    <script type="text/javascript">
+
+        $(".fa-plus").click(function(){
+
+            $("#container").append('<ul> <li><label  style="padding-left: 5px;" for="product">Product </label><input style="border-radius: 5px;" type="text" name="product" id="product" value="" required><br></li><li> <label  style="padding-left: 5px;" for="quantity">Quantity </label> <input style="border-radius: 5px;width: 174px;" type="text" name="quantity" id="quantity" value="" required><br></li><li><label  style="padding-left: 5px;" for="vol">Potential Volume </label><input style="border-radius: 5px; width: 120px;" type="text" name="vol" id="vol" value="" required><br></li> <li style="border-bottom:1px solid gray;"><label  style="padding-left: 5px;" for="app">Application </label><input style="border-radius: 5px;width: 158px;" type="text" name="app" id="app" value="" required><br></li><li id="trash" style="background: #e74c3c;line-height: 40px;"><i style="margin-left: 130px;" class="fa fa-trash fa-2x" aria-hidden="true"></i></li></ul>');
+
+
+
+
+
+        });
+
+        $("#container").on("click","#trash", function(){
+            $(this).parent().remove();
+
+        });
+
+
+    </script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="hoga.js"></script>
+
+
+
+
+</body>
+</html>
+
